@@ -1,0 +1,502 @@
+2013-04-30T22:16:57.532498+00:00 heroku[run.3960]: Starting process with command `python manage.py collectstatic --noinput`
+2013-04-30T22:16:58.778641+00:00 heroku[run.4784]: Awaiting client
+2013-04-30T22:17:00.548147+00:00 heroku[run.3960]: Process exited with status 1
+2013-04-30T22:17:06.615976+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=12ms status=200 bytes=6395
+2013-04-30T22:17:06.912730+00:00 heroku[router]: at=info method=GET path=/static/js/bootstrap.js host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=9ms status=404 bytes=1676
+2013-04-30T22:17:07.076995+00:00 heroku[router]: at=info method=GET path=/static/ico/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=9ms status=404 bytes=1676
+2013-04-30T22:16:58.458010+00:00 heroku[run.3960]: State changed from starting to up
+2013-04-30T22:17:06.921494+00:00 heroku[router]: at=info method=GET path=/static/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=11ms status=404 bytes=1670
+2013-04-30T22:17:06.917395+00:00 heroku[router]: at=info method=GET path=/static/css/bootstrap.min.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=10ms status=404 bytes=1694
+2013-04-30T22:17:08.805372+00:00 heroku[run.4784]: Stopping process with SIGKILL
+2013-04-30T22:17:08.805252+00:00 heroku[run.4784]: Error R99 (Platform error) -> Failed to launch the dyno within 10 seconds
+2013-04-30T22:17:00.565556+00:00 heroku[run.3960]: State changed from up to complete
+2013-04-30T22:17:30.480898+00:00 heroku[run.4784]: Error R13 (Attach error) -> Failed to attach to process
+2013-04-30T22:17:31.615472+00:00 heroku[run.4784]: Process exited with status 128
+2013-04-30T22:17:31.638309+00:00 heroku[run.4784]: State changed from starting to complete
+2013-04-30T22:22:07.375623+00:00 heroku[router]: at=info method=GET path=/media/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=6ms status=404 bytes=2302
+2013-04-30T22:22:13.877680+00:00 heroku[router]: at=info method=GET path=/media/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=6ms status=404 bytes=2341
+2013-04-30T22:22:14.304972+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=6ms status=404 bytes=2317
+2013-04-30T22:22:22.882970+00:00 heroku[router]: at=info method=GET path=/static/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=3ms service=19ms status=404 bytes=1670
+2013-04-30T22:22:23.309538+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=6ms service=14ms status=404 bytes=2317
+2013-04-30T22:22:31.897596+00:00 heroku[router]: at=info method=GET path=/static/ckrobotics_django/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=20ms status=404 bytes=1724
+2013-04-30T22:22:32.283345+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=9ms status=404 bytes=2317
+2013-04-30T22:22:07.835275+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=6ms status=404 bytes=2317
+2013-04-30T22:22:42.000554+00:00 heroku[router]: at=info method=GET path=/ckrobotics_django/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=8ms status=404 bytes=2377
+2013-04-30T22:22:42.393590+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=3ms service=8ms status=404 bytes=2317
+2013-04-30T22:22:44.624144+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=5ms service=7ms status=404 bytes=2317
+2013-04-30T22:22:45.513225+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=10ms status=404 bytes=2317
+2013-04-30T22:22:46.003508+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=7ms status=404 bytes=2317
+2013-04-30T22:22:51.122090+00:00 heroku[router]: at=info method=GET path=/static/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=6ms status=404 bytes=1670
+2013-04-30T22:22:51.774935+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=6ms status=404 bytes=2317
+2013-04-30T22:24:25.888054+00:00 heroku[slugc]: Slug compilation started
+2013-04-30T22:24:40.759473+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=8ms status=200 bytes=6395
+2013-04-30T22:24:40.901251+00:00 heroku[router]: at=info method=GET path=/static/css/bootstrap.min.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=7ms status=404 bytes=1694
+2013-04-30T22:24:40.930055+00:00 heroku[router]: at=info method=GET path=/static/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=2ms service=6ms status=404 bytes=1670
+2013-04-30T22:24:40.938011+00:00 heroku[router]: at=info method=GET path=/static/js/bootstrap.js host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=2ms service=6ms status=404 bytes=1676
+2013-04-30T22:24:41.252607+00:00 heroku[router]: at=info method=GET path=/static/ico/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=7ms status=404 bytes=1676
+2013-04-30T22:24:52.967406+00:00 heroku[api]: Release v15 created by damianw@umich.edu
+2013-04-30T22:24:53.012141+00:00 heroku[api]: Deploy 41e86fb by damianw@umich.edu
+2013-04-30T22:24:53.115287+00:00 heroku[web.1]: State changed from up to starting
+2013-04-30T22:24:53.846725+00:00 heroku[slugc]: Slug compilation finished
+2013-04-30T22:24:55.720367+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-04-30T22:24:56.358321+00:00 app[web.1]: 2013-04-30 18:24:56 [7] [INFO] Worker exiting (pid: 7)
+2013-04-30T22:24:56.358751+00:00 app[web.1]: 2013-04-30 22:24:56 [2] [INFO] Handling signal: term
+2013-04-30T22:24:56.366771+00:00 app[web.1]: 2013-04-30 22:24:56 [2] [INFO] Shutting down: Master
+2013-04-30T22:24:56.967224+00:00 heroku[web.1]: State changed from starting to up
+2013-04-30T22:24:57.526456+00:00 heroku[web.1]: Process exited with status 0
+2013-04-30T22:24:58.076166+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=216ms status=200 bytes=6395
+2013-04-30T22:24:58.278230+00:00 heroku[router]: at=info method=GET path=/static/css/bootstrap.min.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=0ms service=20ms status=404 bytes=1694
+2013-04-30T22:24:58.283311+00:00 heroku[router]: at=info method=GET path=/static/js/bootstrap.js host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=10ms service=8ms status=404 bytes=1676
+2013-04-30T22:24:58.282063+00:00 heroku[router]: at=info method=GET path=/static/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=2ms service=7ms status=404 bytes=1670
+2013-04-30T22:24:58.675306+00:00 heroku[router]: at=info method=GET path=/static/ico/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=5ms status=404 bytes=1676
+2013-04-30T22:25:07.002811+00:00 heroku[router]: at=info method=GET path=/static/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=0ms service=4ms status=404 bytes=1670
+2013-04-30T22:25:07.543142+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=0ms service=6ms status=404 bytes=2317
+2013-04-30T22:29:29.290019+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=14ms service=9ms status=200 bytes=6395
+2013-04-30T22:29:29.429814+00:00 heroku[router]: at=info method=GET path=/static/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=7ms service=13ms status=404 bytes=1670
+2013-04-30T22:29:29.412343+00:00 heroku[router]: at=info method=GET path=/static/css/bootstrap.min.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=7ms status=404 bytes=1694
+2013-04-30T22:29:29.442720+00:00 heroku[router]: at=info method=GET path=/static/js/bootstrap.js host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=8ms service=20ms status=404 bytes=1676
+2013-04-30T22:29:55.838076+00:00 heroku[api]: Release v16 created by damianw@umich.edu
+2013-04-30T22:29:55.877413+00:00 heroku[api]: Deploy 70ad0e7 by damianw@umich.edu
+2013-04-30T22:29:55.994188+00:00 heroku[web.1]: State changed from up to starting
+2013-04-30T22:29:58.889599+00:00 heroku[web.1]: Starting process with command `gunicorn ckrobotics_django.wsgi`
+2013-04-30T22:30:00.028601+00:00 app[web.1]: 2013-04-30 22:30:00 [2] [INFO] Starting gunicorn 0.17.4
+2013-04-30T22:30:00.029608+00:00 app[web.1]: 2013-04-30 22:30:00 [2] [INFO] Listening at: http://0.0.0.0:19449 (2)
+2013-04-30T22:30:00.029782+00:00 app[web.1]: 2013-04-30 22:30:00 [2] [INFO] Using worker: sync
+2013-04-30T22:30:00.034124+00:00 app[web.1]: 2013-04-30 22:30:00 [7] [INFO] Booting worker with pid: 7
+2013-04-30T22:30:00.277593+00:00 heroku[web.1]: State changed from starting to up
+2013-04-30T22:30:06.365662+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=228ms status=200 bytes=6395
+2013-04-30T22:30:06.455919+00:00 heroku[router]: at=info method=GET path=/static/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=2ms service=12ms status=404 bytes=1670
+2013-04-30T22:30:06.470441+00:00 heroku[router]: at=info method=GET path=/static/js/bootstrap.js host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=4ms service=6ms status=404 bytes=1676
+2013-04-30T22:30:06.463266+00:00 heroku[router]: at=info method=GET path=/static/css/bootstrap.min.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=6ms service=8ms status=404 bytes=1694
+2013-04-30T22:30:06.646726+00:00 heroku[router]: at=info method=GET path=/static/ico/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=8ms status=404 bytes=1676
+2013-04-30T22:30:20.610183+00:00 heroku[slugc]: Slug compilation finished
+2013-04-30T22:31:00.149105+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=7ms status=200 bytes=6395
+2013-04-30T22:31:00.315822+00:00 heroku[router]: at=info method=GET path=/static/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=4ms service=14ms status=404 bytes=1670
+2013-04-30T22:31:00.320053+00:00 heroku[router]: at=info method=GET path=/static/js/bootstrap.js host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=2ms service=18ms status=404 bytes=1676
+2013-04-30T22:31:00.592376+00:00 heroku[router]: at=info method=GET path=/static/ico/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=3ms service=7ms status=404 bytes=1676
+2013-04-30T22:31:00.341811+00:00 heroku[router]: at=info method=GET path=/static/css/bootstrap.min.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=8ms service=16ms status=404 bytes=1694
+2013-04-30T22:31:01.825168+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=6ms status=200 bytes=6395
+2013-04-30T22:31:01.930156+00:00 heroku[router]: at=info method=GET path=/static/js/bootstrap.js host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=9ms service=9ms status=404 bytes=1676
+2013-04-30T22:31:01.955839+00:00 heroku[router]: at=info method=GET path=/static/css/bootstrap.min.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=5ms service=6ms status=404 bytes=1694
+2013-04-30T22:31:02.181975+00:00 heroku[router]: at=info method=GET path=/static/ico/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=2ms service=6ms status=404 bytes=1676
+2013-04-30T22:31:01.947066+00:00 heroku[router]: at=info method=GET path=/static/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=8ms service=11ms status=404 bytes=1670
+2013-04-30T22:31:02.930711+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=5ms service=12ms status=200 bytes=6395
+2013-04-30T22:31:03.098873+00:00 heroku[router]: at=info method=GET path=/static/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=6ms status=404 bytes=1670
+2013-04-30T22:31:03.111529+00:00 heroku[router]: at=info method=GET path=/static/css/bootstrap.min.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=4ms service=8ms status=404 bytes=1694
+2013-04-30T22:31:03.275733+00:00 heroku[router]: at=info method=GET path=/static/ico/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=6ms status=404 bytes=1676
+2013-04-30T22:31:03.115258+00:00 heroku[router]: at=info method=GET path=/static/js/bootstrap.js host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=13ms status=404 bytes=1676
+2013-04-30T22:51:51.165793+00:00 heroku[slugc]: Slug compilation started
+2013-04-30T22:52:32.805622+00:00 heroku[api]: Release v17 created by damianw@umich.edu
+2013-04-30T22:52:32.843308+00:00 heroku[api]: Deploy 0c61e17 by damianw@umich.edu
+2013-04-30T22:52:32.929699+00:00 heroku[web.1]: State changed from up to starting
+2013-04-30T22:52:33.622158+00:00 heroku[slugc]: Slug compilation finished
+2013-04-30T22:52:35.836992+00:00 heroku[web.1]: Starting process with command `gunicorn ckrobotics_django.wsgi`
+2013-04-30T22:52:36.922372+00:00 app[web.1]: 2013-04-30 22:52:36 [2] [INFO] Listening at: http://0.0.0.0:4883 (2)
+2013-04-30T22:52:36.922453+00:00 app[web.1]: 2013-04-30 22:52:36 [2] [INFO] Using worker: sync
+2013-04-30T22:52:36.921821+00:00 app[web.1]: 2013-04-30 22:52:36 [2] [INFO] Starting gunicorn 0.17.4
+2013-04-30T22:52:36.926822+00:00 app[web.1]: 2013-04-30 22:52:36 [7] [INFO] Booting worker with pid: 7
+2013-04-30T22:52:37.099175+00:00 heroku[web.1]: State changed from starting to up
+2013-04-30T22:53:10.712050+00:00 heroku[router]: at=info method=GET path=/static/css/bootstrap.min.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=12ms status=404 bytes=2241
+2013-04-30T22:53:10.707319+00:00 heroku[router]: at=info method=GET path=/static/js/bootstrap.js host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=2ms service=8ms status=404 bytes=2223
+2013-04-30T22:53:10.711560+00:00 heroku[router]: at=info method=GET path=/static/css/style.css host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=14ms status=404 bytes=2217
+2013-04-30T22:58:44.569760+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-04-30T22:58:45.277937+00:00 app[web.1]: 2013-04-30 18:58:45 [7] [INFO] Worker exiting (pid: 7)
+2013-04-30T22:58:45.283128+00:00 app[w
+eb.1]: 2013-04-30 22:58:45 [2] [INFO] Handling signal: term
+2013-04-30T22:58:45.290159+00:00 app[web.1]: 2013-04-30 22:58:45 [2] [INFO] Shutting down: Master
+2013-04-30T22:58:46.682289+00:00 heroku[web.1]: Process exited with status 0
+2013-04-30T23:15:39.536647+00:00 heroku[slugc]: Slug compilation started
+2013-04-30T23:16:24.817876+00:00 heroku[api]: Release v18 created by damianw@umich.edu
+2013-04-30T23:16:24.917914+00:00 heroku[api]: Deploy 2950e6a by damianw@umich.edu
+2013-04-30T23:16:26.368835+00:00 heroku[slugc]: Slug compilation finished
+2013-04-30T23:16:27.365046+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-04-30T23:16:27.838425+00:00 heroku[web.1]: Starting process with command `gunicorn ckrobotics_django.wsgi`
+2013-04-30T23:16:27.889341+00:00 app[web.1]: 2013-04-30 23:16:27 [2] [INFO] Handling signal: term
+2013-04-30T23:16:27.896092+00:00 app[web.1]: Exception SystemExit: 0 in <module 'threading' from '/app/.heroku/python/lib/python2.7/threading.pyc'> ignored
+2013-04-30T23:16:27.889061+00:00 app[web.1]: 2013-04-30 19:16:27 [7] [INFO] Worker exiting (pid: 7)
+2013-04-30T23:16:27.932829+00:00 app[web.1]: 2013-04-30 23:16:27 [2] [INFO] Shutting down: Master
+2013-04-30T23:16:28.750986+00:00 app[web.1]: 2013-04-30 23:16:28 [2] [INFO] Starting gunicorn 0.17.4
+2013-04-30T23:16:28.751933+00:00 app[web.1]: 2013-04-30 23:16:28 [2] [INFO] Listening at: http://0.0.0.0:26624 (2)
+2013-04-30T23:16:28.752033+00:00 app[web.1]: 2013-04-30 23:16:28 [2] [INFO] Using worker: sync
+2013-04-30T23:16:28.755788+00:00 app[web.1]: 2013-04-30 23:16:28 [7] [INFO] Booting worker with pid: 7
+2013-04-30T23:16:29.095216+00:00 heroku[web.1]: State changed from starting to up
+2013-04-30T23:16:29.237849+00:00 heroku[web.1]: Process exited with status 0
+2013-04-30T23:16:24.993209+00:00 heroku[web.1]: State changed from up to starting
+2013-04-30T23:20:06.712846+00:00 heroku[api]: Add AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY config by damianw@umich.edu
+2013-04-30T23:20:06.758881+00:00 heroku[api]: Release v19 created by damianw@umich.edu
+2013-04-30T23:20:17.831929+00:00 heroku[web.1]: State changed from up to starting
+2013-04-30T23:20:17.962329+00:00 heroku[web.1]: State changed from up to starting
+2013-04-30T23:20:19.540721+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-04-30T23:20:19.870427+00:00 app[web.1]: 2013-04-30 23:20:19 [7] [INFO] Worker exiting (pid: 7)
+2013-04-30T23:20:19.871107+00:00 app[web.1]: 2013-04-30 23:20:19 [2] [INFO] Handling signal: term
+2013-04-30T23:20:19.876671+00:00 app[web.1]: 2013-04-30 23:20:19 [2] [INFO] Shutting down: Master
+2013-04-30T23:20:21.055479+00:00 heroku[web.1]: Process exited with status 0
+2013-04-30T23:20:22.590388+00:00 heroku[web.1]: Starting process with command `gunicorn ckrobotics_django.wsgi`
+2013-04-30T23:20:23.321202+00:00 heroku[api]: Add S3_BUCKET_NAME config by damianw@umich.edu
+2013-04-30T23:20:23.356746+00:00 heroku[api]: Release v20 created by damianw@umich.edu
+2013-04-30T23:20:23.727753+00:00 app[web.1]: 2013-04-30 23:20:23 [2] [INFO] Listening at: http://0.0.0.0:21366 (2)
+2013-04-30T23:20:23.728010+00:00 app[web.1]: 2013-04-30 23:20:23 [2] [INFO] Using worker: sync
+2013-04-30T23:20:23.719655+00:00 app[web.1]: 2013-04-30 23:20:23 [2] [INFO] Starting gunicorn 0.17.4
+2013-04-30T23:20:23.733088+00:00 app[web.1]: 2013-04-30 23:20:23 [7] [INFO] Booting worker with pid: 7
+2013-04-30T23:20:24.042680+00:00 heroku[web.1]: State changed from starting to up
+2013-04-30T23:20:35.451341+00:00 heroku[web.1]: State changed from up to starting
+2013-04-30T23:20:38.378254+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-04-30T23:20:38.899693+00:00 heroku[web.1]: Starting process with command `gunicorn ckrobotics_django.wsgi`
+2013-04-30T23:20:39.070779+00:00 app[web.1]: 2013-04-30 23:20:39 [2] [INFO] Handling signal: term
+2013-04-30T23:20:39.070539+00:00 app[web.1]: 2013-04-30 23:20:39 [7] [INFO] Worker exiting (pid: 7)
+2013-04-30T23:20:39.307540+00:00 app[web.1]: 2013-04-30 23:20:39 [2] [INFO] Shutting down: Master
+2013-04-30T23:20:39.604644+00:00 heroku[web.1]: Starting process with command `gunicorn ckrobotics_django.wsgi`
+2013-04-30T23:20:39.944761+00:00 app[web.1]: 2013-04-30 23:20:39 [2] [INFO] Listening at: http://0.0.0.0:7994 (2)
+2013-04-30T23:20:39.944975+00:00 app[web.1]: 2013-04-30 23:20:39 [2] [INFO] Using worker: sync
+2013-04-30T23:20:39.943480+00:00 app[web.1]: 2013-04-30 23:20:39 [2] [INFO] Starting gunicorn 0.17.4
+2013-04-30T23:20:39.950472+00:00 app[web.1]: 2013-04-30 23:20:39 [7] [INFO] Booting worker with pid: 7
+2013-04-30T23:20:40.255065+00:00 heroku[web.1]: State changed from starting to up
+2013-04-30T23:20:40.746703+00:00 heroku[web.1]: Process exited with status 0
+2013-04-30T23:20:41.082988+00:00 app[web.1]: 2013-04-30 23:20:41 [2] [INFO] Starting gunicorn 0.17.4
+2013-04-30T23:20:41.085631+00:00 app[web.1]: 2013-04-30 23:20:41 [2] [INFO] Listening at: http://0.0.0.0:12098 (2)
+2013-04-30T23:20:41.085909+00:00 app[web.1]: 2013-04-30 23:20:41 [2] [INFO] Using worker: sync
+2013-04-30T23:20:41.090877+00:00 app[web.1]: 2013-04-30 23:20:41 [7] [INFO] Booting worker with pid: 7
+2013-04-30T23:20:45.616683+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-04-30T23:20:46.723848+00:00 app[web.1]: 2013-04-30 23:20:46 [7] [INFO] Worker exiting (pid: 7)
+2013-04-30T23:20:46.725135+00:00 app[web.1]: 2013-04-30 23:20:46 [2] [INFO] Handling signal: term
+2013-04-30T23:20:46.749403+00:00 app[web.1]: 2013-04-30 23:20:46 [2] [INFO] Shutting down: Master
+2013-04-30T23:20:48.109916+00:00 heroku[web.1]: Process exited with status 0
+2013-04-30T23:31:55.157209+00:00 heroku[slugc]: Slug compilation started
+2013-04-30T23:32:27.449593+00:00 heroku[api]: Release v21 created by damianw@umich.edu
+2013-04-30T23:32:27.496054+00:00 heroku[api]: Deploy 4bc6e72 by damianw@umich.edu
+2013-04-30T23:32:28.188930+00:00 heroku[slugc]: Slug compilation finished
+2013-04-30T23:32:29.995714+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-04-30T23:32:30.191574+00:00 heroku[web.1]: Starting process with command `gunicorn ckrobotics_django.wsgi`
+2013-04-30T23:32:30.598669+00:00 app[web.1]: 2013-04-30 23:32:30 [7] [INFO] Worker exiting (pid: 7)
+2013-04-30T23:32:30.620303+00:00 app[web.1]: 2013-04-30 23:32:30 [2] [INFO] Handling signal: term
+2013-04-30T23:32:30.630146+00:00 app[web.1]: 2013-04-30 23:32:30 [2] [INFO] Shutting down: Master
+2013-04-30T23:32:31.712321+00:00 app[web.1]: 2013-04-30 23:32:31 [2] [INFO] Starting gunicorn 0.17.4
+2013-04-30T23:32:31.713157+00:00 app[web.1]: 2013-04-30 23:32:31 [2] [INFO] Listening at: http://0.0.0.0:49043 (2)
+2013-04-30T23:32:31.713318+00:00 app[web.1]: 2013-04-30 23:32:31 [2] [INFO] Using worker: sync
+2013-04-30T23:32:31.721967+00:00 app[web.1]: 2013-04-30 23:32:31 [7] [INFO] Booting worker with pid: 7
+2013-04-30T23:32:32.026125+00:00 heroku[web.1]: Process exited with status 0
+2013-04-30T23:32:32.157006+00:00 heroku[web.1]: State changed from starting to up
+2013-04-30T23:33:22.963335+00:00 heroku[slugc]: Slug compilation started
+2013-04-30T23:33:57.040662+00:00 app[web.1]: Traceback (most recent call last):
+2013-04-30T23:33:57.040662+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 126, in handle_request
+2013-04-30T23:33:57.040662+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2013-04-30T23:33:57.040662+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+2013-04-30T23:33:57.040662+00:00 app[web.1]:     self.load_middleware()
+2013-04-30T23:33:57.040662+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+2013-04-30T23:33:57.040662+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+2013-04-30T23:33:57.041056+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2013-04-30T23:33:57.041056+00:00 app[web.1]:     __import__(name)
+2013-04-30T23:33:57.040662+00:00 app[web.1]:     self._setup(name)
+2013-04-30T23:33:57.041056+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+2013-04-30T23:33:57.041056+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+2013-04-30T23:33:57.041056+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2013-04-30T23:33:57.041056+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+2013-04-30T23:33:57.040662+00:00 app[web.1]: 2013-04-30 23:33:57 [7] [ERROR] Error handling request
+2013-04-30T23:33:57.041056+00:00 app[web.1]:     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
+2013-04-30T23:33:57.040662+00:00 app[web.1]:     for middleware_path in settings.MIDDLEWARE_CLASSES:
+2013-04-30T23:33:57.041056+00:00 app[web.1]:     raise KeyError(key)
+2013-04-30T23:33:57.041315+00:00 app[web.1]: KeyError: 'AWS_STORAGE_BUCKET_NAME'
+2013-04-30T23:33:57.041056+00:00 app[web.1]:   File "/app/ckrobotics_django/settings.py", line 176, in <module>
+2013-04-30T23:33:57.041056+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/UserDict.py", line 23, in __getitem__
+2013-04-30T23:33:57.291641+00:00 app[web.1]: Traceback (most recent call last):
+2013-04-30T23:33:57.291641+00:00 app[web.1]: 2013-04-30 23:33:57 [7] [ERROR] Error handling request
+2013-04-30T23:33:57.291641+00:00 app[web.1]:     self.load_middleware()
+2013-04-30T23:33:57.291641+00:00 app[web.1]:     for middleware_path in settings.MIDDLEWARE_CLASSES:
+2013-04-30T23:33:57.291641+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 126, in handle_request
+2013-04-30T23:33:57.291641+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2013-04-30T23:33:57.291641+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+2013-04-30T23:33:57.291641+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+2013-04-30T23:33:57.291641+00:00 app[web.1]:     self._setup(name)
+2013-04-30T23:33:57.291902+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2013-04-30T23:33:57.291902+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+2013-04-30T23:33:57.291902+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+2013-04-30T23:33:57.291902+00:00 app[web.1]:     __import__(name)
+2013-04-30T23:33:57.291902+00:00 app[web.1]:   File "/app/ckrobotics_django/settings.py", line 176, in <module>
+2013-04-30T23:33:57.292132+00:00 app[web.1]: KeyError: 'AWS_STORAGE_BUCKET_NAME'
+2013-04-30T23:33:57.291902+00:00 app[web.1]:     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
+2013-04-30T23:33:57.291641+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+2013-04-30T23:33:57.291902+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+2013-04-30T23:33:57.291902+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2013-04-30T23:33:57.291902+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/UserDict.py", line 23, in __getitem__
+2013-04-30T23:33:57.291902+00:00 app[web.1]:     raise KeyError(key)
+2013-04-30T23:33:57.067030+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=7ms service=35ms status=500 bytes=135
+2013-04-30T23:34:01.376890+00:00 heroku[api]: Release v22 created by damianw@umich.edu
+2013-04-30T23:34:01.405319+00:00 heroku[api]: Deploy d069242 by damianw@umich.edu
+2013-04-30T23:34:03.695762+00:00 app[web.1]: Traceback (most recent call last):
+2013-04-30T23:34:03.695762+00:00 app[web.1]: 2013-04-30 23:34:03 [7] [ERROR] Error handling request
+2013-04-30T23:34:03.695762+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 126, in handle_request
+2013-04-30T23:34:03.695762+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2013-04-30T23:34:03.695762+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+2013-04-30T23:34:03.695762+00:00 app[web.1]:     self.load_middleware()
+2013-04-30T23:34:03.695762+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+2013-04-30T23:34:03.696031+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+2013-04-30T23:34:03.695762+00:00 app[web.1]:     for middleware_path in settings.MIDDLEWARE_CLASSES:
+2013-04-30T23:34:03.695762+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+2013-04-30T23:34:03.695762+00:00 app[web.1]:     self._setup(name)
+2013-04-30T23:34:03.696031+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+2013-04-30T23:34:03.696031+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2013-04-30T23:34:03.696031+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2013-04-30T23:34:03.696031+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+2013-04-30T23:34:03.696031+00:00 app[web.1]:     __import__(name)
+2013-04-30T23:34:03.703358+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=5ms service=9ms status=500 bytes=135
+2013-04-30T23:34:03.696031+00:00 app[web.1]:   File "/app/ckrobotics_django/settings.py", line 176, in <module>
+2013-04-30T23:34:03.696031+00:00 app[web.1]:     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
+2013-04-30T23:34:03.696031+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/UserDict.py", line 23, in __getitem__
+2013-04-30T23:34:03.696031+00:00 app[web.1]:     raise KeyError(key)
+2013-04-30T23:34:03.696295+00:00 app[web.1]: KeyError: 'AWS_STORAGE_BUCKET_NAME'
+2013-04-30T23:34:03.908937+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2013-04-30T23:34:03.908937+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+2013-04-30T23:34:03.908937+00:00 app[web.1]:     self.load_middleware()
+2013-04-30T23:34:03.908937+00:00 app[web.1]: 2013-04-30 23:34:03 [7] [ERROR] Error handling request
+2013-04-30T23:34:03.908937+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+2013-04-30T23:34:03.908937+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+2013-04-30T23:34:03.908937+00:00 app[web.1]: Traceback (most recent call last):
+2013-04-30T23:34:03.908937+00:00 app[web.1]:     for middleware_path in settings.MIDDLEWARE_CLASSES:
+2013-04-30T23:34:03.908937+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 126, in handle_request
+2013-04-30T23:34:03.908937+00:00 app[web.1]:     self._setup(name)
+2013-04-30T23:34:03.909249+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+2013-04-30T23:34:03.909249+00:00 app[web.1]:     __import__(name)
+2013-04-30T23:34:03.909249+00:00 app[web.1]:   File "/app/ckrobotics_django/settings.py", line 176, in <module>
+2013-04-30T23:34:03.909249+00:00 app[web.1]:     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
+2013-04-30T23:34:03.912722+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=2ms service=8ms status=500 bytes=135
+2013-04-30T23:34:03.909249+00:00 app[web.1]:     raise KeyError(key)
+2013-04-30T23:34:03.909249+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+2013-04-30T23:34:03.909249+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2013-04-30T23:34:03.909249+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+2013-04-30T23:34:03.909478+00:00 app[web.1]: KeyError: 'AWS_STORAGE_BUCKET_NAME'
+2013-04-30T23:34:03.909249+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2013-04-30T23:34:03.909249+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/UserDict.py", line 23, in __getitem__
+2013-04-30T23:34:11.984787+00:00 heroku[web.1]: State changed from up to starting
+2013-04-30T23:34:14.810715+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-04-30T23:34:15.183015+00:00 heroku[web.1]: Starting process with command `gunicorn ckrobotics_django.wsgi`
+2013-04-30T23:34:15.514052+00:00 app[web.1]: 2013-04-30 23:34:15 [7] [INFO] Worker exiting (pid: 7)
+2013-04-30T23:34:15.537184+00:00 app[web.1]: 2013-04-30 23:34:15 [2] [INFO] Handling signal: term
+2013-04-30T23:34:15.537590+00:00 app[web.1]: 2013-04-30 23:34:15 [2] [INFO] Shutting down: Master
+2013-04-30T23:34:16.128579+00:00 app[web.1]: 2013-04-30 23:34:16 [2] [INFO] Starting gunicorn 0.17.4
+2013-04-30T23:34:16.129372+00:00 app[web.1]: 2013-04-30 23:34:16 [2] [INFO] Listening at: http://0.0.0.0:23173 (2)
+2013-04-30T23:34:16.129439+00:00 app[web.1]: 2013-04-30 23:34:16 [2] [INFO] Using worker: sync
+2013-04-30T23:34:16.141038+00:00 app[web.1]: 2013-04-30 23:34:16 [7] [INFO] Booting worker with pid: 7
+2013-04-30T23:34:17.249753+00:00 heroku[web.1]: Process exited with status 0
+2013-04-30T23:34:17.334878+00:00 heroku[web.1]: State changed from up to starting
+2013-04-30T23:34:19.941439+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-04-30T23:34:20.497012+00:00 app[web.1]: 2013-04-30 23:34:20 [7] [INFO] Worker exiting (pid: 7)
+2013-04-30T23:34:20.507195+00:00 app[web.1]: 2013-04-30 23:34:20 [2] [INFO] Handling signal: term
+2013-04-30T23:34:20.516712+00:00 app[web.1]: 2013-04-30 23:34:20 [2] [INFO] Shutting down: Master
+2013-04-30T23:34:20.566389+00:00 heroku[slugc]: Slug compilation finished
+2013-04-30T23:34:20.698300+00:00 heroku[web.1]: Starting process with command `gunicorn ckrobotics_django.wsgi`
+2013-04-30T23:34:21.698217+00:00 app[web.1]: 2013-04-30 23:34:21 [2] [INFO] Listening at: http://0.0.0.0:43980 (2)
+2013-04-30T23:34:21.698390+00:00 app[web.1]: 2013-04-30 23:34:21 [2] [INFO] Using worker: sync
+2013-04-30T23:34:21.703438+00:00 app[web.1]: 2013-04-30 23:34:21 [7] [INFO] Booting worker with pid: 7
+2013-04-30T23:34:21.697331+00:00 app[web.1]: 2013-04-30 23:34:21 [2] [INFO] Starting gunicorn 0.17.4
+2013-04-30T23:34:21.766391+00:00 heroku[web.1]: Process exited with status 0
+2013-04-30T23:34:22.216547+00:00 heroku[web.1]: State changed from starting to up
+2013-04-30T23:34:22.390129+00:00 heroku[web.1]: Starting process with command `gunicorn ckrobotics_django.wsgi`
+2013-04-30T23:34:23.623722+00:00 app[web.1]: 2013-04-30 23:34:23 [2] [INFO] Listening at: http://0.0.0.0:29064 (2)
+2013-04-30T23:34:23.623803+00:00 app[web.1]: 2013-04-30 23:34:23 [2] [INFO] Using worker: sync
+2013-04-30T23:34:23.623102+00:00 app[web.1]: 2013-04-30 23:34:23 [2] [INFO] Starting gunicorn 0.17.4
+2013-04-30T23:34:23.629271+00:00 app[web.1]: 2013-04-30 23:34:23 [7] [INFO] Booting worker with pid: 7
+2013-04-30T23:34:27.637808+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-04-30T23:34:27.718144+00:00 app[web.1]: 2013-04-30 23:34:27 [7] [ERROR] Error handling request
+2013-04-30T23:34:27.718441+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+2013-04-30T23:34:27.718144+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+2013-04-30T23:34:27.718144+00:00 app[web.1]:     for middleware_path in settings.MIDDLEWARE_CLASSES:
+2013-04-30T23:34:27.718144+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+2013-04-30T23:34:27.718144+00:00 app[web.1]:     self._setup(name)
+2013-04-30T23:34:27.718441+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+2013-04-30T23:34:27.718441+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2013-04-30T23:34:27.718441+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2013-04-30T23:34:27.718441+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+2013-04-30T23:34:27.718441+00:00 app[web.1]:     __import__(name)
+2013-04-30T23:34:27.718441+00:00 app[web.1]:   File "/app/ckrobotics_django/settings.py", line 176, in <module>
+2013-04-30T23:34:27.718441+00:00 app[web.1]:     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
+2013-04-30T23:34:27.718441+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/UserDict.py", line 23, in __getitem__
+2013-04-30T23:34:27.718144+00:00 app[web.1]:     self.load_middleware()
+2013-04-30T23:34:27.718441+00:00 app[web.1]:     raise KeyError(key)
+2013-04-30T23:34:27.718720+00:00 app[web.1]: KeyError: 'AWS_STORAGE_BUCKET_NAME'
+2013-04-30T23:34:27.718144+00:00 app[web.1]: Traceback (most recent call last):
+2013-04-30T23:34:27.718144+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2013-04-30T23:34:27.718144+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 126, in handle_request
+2013-04-30T23:34:27.718144+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+2013-04-30T23:34:27.758833+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=0ms service=45ms status=500 bytes=135
+2013-04-30T23:34:28.053985+00:00 app[web.1]:     self.load_middleware()
+2013-04-30T23:34:28.053985+00:00 app[web.1]:     for middleware_path in settings.MIDDLEWARE_CLASSES:
+2013-04-30T23:34:28.053985+00:00 app[web.1]: 2013-04-30 23:34:28 [7] [ERROR] Error handling request
+2013-04-30T23:34:28.053985+00:00 app[web.1]: Traceback (most recent call last):
+2013-04-30T23:34:28.054375+00:00 app[web.1]:   File "/app/ckrobotics_django/settings.py", line 176, in <module>
+2013-04-30T23:34:28.053985+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 126, in handle_request
+2013-04-30T23:34:28.053985+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+2013-04-30T23:34:28.054375+00:00 app[web.1]:     raise KeyError(key)
+2013-04-30T23:34:28.053985+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2013-04-30T23:34:28.053985+00:00 app[web.1]:     self._setup(name)
+2013-04-30T23:34:28.054375+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/UserDict.py", line 23, in __getitem__
+2013-04-30T23:34:28.053985+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+2013-04-30T23:34:28.054375+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+2013-04-30T23:34:28.054375+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2013-04-30T23:34:28.054646+00:00 app[web.1]: KeyError: 'AWS_STORAGE_BUCKET_NAME'
+2013-04-30T23:34:28.053985+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+2013-04-30T23:34:28.054375+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+2013-04-30T23:34:28.054375+00:00 app[web.1]:     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
+2013-04-30T23:34:28.054375+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2013-04-30T23:34:28.054375+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+2013-04-30T23:34:28.054375+00:00 app[web.1]:     __import__(name)
+2013-04-30T23:34:28.059288+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=17ms status=500 bytes=135
+2013-04-30T23:34:28.430679+00:00 app[web.1]: 2013-04-30 23:34:28 [7] [INFO] Worker exiting (pid: 7)
+2013-04-30T23:34:28.437405+00:00 app[web.1]: 2013-04-30 23:34:28 [2] [INFO] Handling signal: term
+2013-04-30T23:34:28.781325+00:00 app[web.1]: 2013-04-30 23:34:28 [2] [INFO] Shutting down: Master
+2013-04-30T23:34:29.051285+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+2013-04-30T23:34:29.051285+00:00 app[web.1]:     for middleware_path in settings.MIDDLEWARE_CLASSES:
+2013-04-30T23:34:29.051285+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+2013-04-30T23:34:29.051285+00:00 app[web.1]:     self._setup(name)
+2013-04-30T23:34:29.051616+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+2013-04-30T23:34:29.051616+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2013-04-30T23:34:29.051616+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+2013-04-30T23:34:29.051616+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2013-04-30T23:34:29.051616+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+2013-04-30T23:34:29.051616+00:00 app[web.1]:     __import__(name)
+2013-04-30T23:34:29.051616+00:00 app[web.1]:   File "/app/ckrobotics_django/settings.py", line 176, in <module>
+2013-04-30T23:34:29.051616+00:00 app[web.1]:     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
+2013-04-30T23:34:29.051616+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/UserDict.py", line 23, in __getitem__
+2013-04-30T23:34:29.051616+00:00 app[web.1]:     raise KeyError(key)
+2013-04-30T23:34:29.052828+00:00 app[web.1]: KeyError: 'AWS_STORAGE_BUCKET_NAME'
+2013-04-30T23:34:29.051285+00:00 app[web.1]:     self.load_middleware()
+2013-04-30T23:34:29.051285+00:00 app[web.1]: 2013-04-30 23:34:29 [7] [ERROR] Error handling request
+2013-04-30T23:34:29.051285+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 126, in handle_request
+2013-04-30T23:34:29.051285+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2013-04-30T23:34:29.051285+00:00 app[web.1]: Traceback (most recent call last):
+2013-04-30T23:34:29.051285+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+2013-04-30T23:34:29.053815+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=5ms service=2ms status=500 bytes=135
+2013-04-30T23:34:29.279128+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=19ms status=500 bytes=135
+2013-04-30T23:34:29.263987+00:00 app[web.1]: 2013-04-30 23:34:29 [7] [ERROR] Error handling request
+2013-04-30T23:34:29.263987+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+2013-04-30T23:34:29.263987+00:00 app[web.1]: Traceback (most recent call last):
+2013-04-30T23:34:29.263987+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 126, in handle_request
+2013-04-30T23:34:29.263987+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+2013-04-30T23:34:29.263987+00:00 app[web.1]:     for middleware_path in settings.MIDDLEWARE_CLASSES:
+2013-04-30T23:34:29.264320+00:00 app[web.1]:     __import__(name)
+2013-04-30T23:34:29.264320+00:00 app[web.1]:   File "/app/ckrobotics_django/settings.py", line 176, in <module>
+2013-04-30T23:34:29.264320+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2013-04-30T23:34:29.264320+00:00 app[web.1]:     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
+2013-04-30T23:34:29.263987+00:00 app[web.1]:     self._setup(name)
+2013-04-30T23:34:29.264320+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+2013-04-30T23:34:29.264320+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2013-04-30T23:34:29.263987+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+2013-04-30T23:34:29.263987+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2013-04-30T23:34:29.264320+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+2013-04-30T23:34:29.264320+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+2013-04-30T23:34:29.263987+00:00 app[web.1]:     self.load_middleware()
+2013-04-30T23:34:29.264320+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/UserDict.py", line 23, in __getitem__
+2013-04-30T23:34:29.264320+00:00 app[web.1]:     raise KeyError(key)
+2013-04-30T23:34:29.264554+00:00 app[web.1]: KeyError: 'AWS_STORAGE_BUCKET_NAME'
+2013-04-30T23:34:30.502655+00:00 heroku[web.1]: Process exited with status 0
+2013-04-30T23:34:32.265786+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=0ms service=9ms status=500 bytes=135
+2013-04-30T23:34:32.263785+00:00 app[web.1]:     for middleware_path in settings.MIDDLEWARE_CLASSES:
+2013-04-30T23:34:32.263785+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+2013-04-30T23:34:32.263785+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2013-04-30T23:34:32.263785+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+2013-04-30T23:34:32.263785+00:00 app[web.1]:     self.load_middleware()
+2013-04-30T23:34:32.263785+00:00 app[web.1]: 2013-04-30 23:34:32 [7] [ERROR] Error handling request
+2013-04-30T23:34:32.263785+00:00 app[web.1]: Traceback (most recent call last):
+2013-04-30T23:34:32.263785+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 126, in handle_request
+2013-04-30T23:34:32.263785+00:00 app[web.1]:     self._setup(name)
+2013-04-30T23:34:32.263785+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+2013-04-30T23:34:32.264116+00:00 app[web.1]:     __import__(name)
+2013-04-30T23:34:32.264116+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+2013-04-30T23:34:32.264116+00:00 app[web.1]:   File "/app/ckrobotics_django/settings.py", line 176, in <module>
+2013-04-30T23:34:32.264116+00:00 app[web.1]:     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
+2013-04-30T23:34:32.264116+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/UserDict.py", line 23, in __getitem__
+2013-04-30T23:34:32.264116+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2013-04-30T23:34:32.264116+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+2013-04-30T23:34:32.264116+00:00 app[web.1]:     raise KeyError(key)
+2013-04-30T23:34:32.264344+00:00 app[web.1]: KeyError: 'AWS_STORAGE_BUCKET_NAME'
+2013-04-30T23:34:32.264116+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2013-04-30T23:34:32.264116+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+2013-04-30T23:34:36.780484+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=0ms service=3ms status=500 bytes=135
+2013-04-30T23:34:36.775651+00:00 app[web.1]: 2013-04-30 23:34:36 [7] [ERROR] Error handling request
+2013-04-30T23:34:36.775651+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 126, in handle_request
+2013-04-30T23:34:36.775651+00:00 app[web.1]: Traceback (most recent call last):
+2013-04-30T23:34:36.775651+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2013-04-30T23:34:36.775651+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+2013-04-30T23:34:36.775651+00:00 app[web.1]:     self.load_middleware()
+2013-04-30T23:34:36.775651+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+2013-04-30T23:34:36.775651+00:00 app[web.1]:     for middleware_path in settings.MIDDLEWARE_CLASSES:
+2013-04-30T23:34:36.775651+00:00 app[web.1]:     self._setup(name)
+2013-04-30T23:34:36.775965+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+2013-04-30T23:34:36.775965+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+2013-04-30T23:34:36.775965+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2013-04-30T23:34:36.775965+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+2013-04-30T23:34:36.775651+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+2013-04-30T23:34:36.775965+00:00 app[web.1]:     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
+2013-04-30T23:34:36.775965+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/UserDict.py", line 23, in __getitem__
+2013-04-30T23:34:36.775965+00:00 app[web.1]:     raise KeyError(key)
+2013-04-30T23:34:36.776191+00:00 app[web.1]: KeyError: 'AWS_STORAGE_BUCKET_NAME'
+2013-04-30T23:34:36.775965+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2013-04-30T23:34:36.775965+00:00 app[web.1]:     __import__(name)
+2013-04-30T23:34:36.775965+00:00 app[web.1]:   File "/app/ckrobotics_django/settings.py", line 176, in <module>
+2013-04-30T23:34:37.205294+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+2013-04-30T23:34:37.205294+00:00 app[web.1]:     __import__(name)
+2013-04-30T23:34:37.205039+00:00 app[web.1]: 2013-04-30 23:34:37 [7] [ERROR] Error handling request
+2013-04-30T23:34:37.205039+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 126, in handle_request
+2013-04-30T23:34:37.205039+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2013-04-30T23:34:37.205039+00:00 app[web.1]: Traceback (most recent call last):
+2013-04-30T23:34:37.205039+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+2013-04-30T23:34:37.205039+00:00 app[web.1]:     self.load_middleware()
+2013-04-30T23:34:37.205294+00:00 app[web.1]:     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
+2013-04-30T23:34:37.205294+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/UserDict.py", line 23, in __getitem__
+2013-04-30T23:34:37.205521+00:00 app[web.1]: KeyError: 'AWS_STORAGE_BUCKET_NAME'
+2013-04-30T23:34:37.205294+00:00 app[web.1]:     raise KeyError(key)
+2013-04-30T23:34:37.205294+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+2013-04-30T23:34:37.205294+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2013-04-30T23:34:37.205039+00:00 app[web.1]:     for middleware_path in settings.MIDDLEWARE_CLASSES:
+2013-04-30T23:34:37.205294+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2013-04-30T23:34:37.205294+00:00 app[web.1]:   File "/app/ckrobotics_django/settings.py", line 176, in <module>
+2013-04-30T23:34:37.205039+00:00 app[web.1]:     self._setup(name)
+2013-04-30T23:34:37.205039+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+2013-04-30T23:34:37.205294+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+2013-04-30T23:34:37.205039+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+2013-04-30T23:34:37.206944+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=1ms service=2ms status=500 bytes=135
+2013-04-30T23:34:38.564004+00:00 app[web.1]: 2013-04-30 23:34:38 [7] [ERROR] Error handling request
+2013-04-30T23:34:38.564004+00:00 app[web.1]: Traceback (most recent call last):
+2013-04-30T23:34:38.564004+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 126, in handle_request
+2013-04-30T23:34:38.564004+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2013-04-30T23:34:38.564004+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+2013-04-30T23:34:38.564004+00:00 app[web.1]:     self.load_middleware()
+2013-04-30T23:34:38.564004+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+2013-04-30T23:34:38.564004+00:00 app[web.1]:     for middleware_path in settings.MIDDLEWARE_CLASSES:
+2013-04-30T23:34:38.564004+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+2013-04-30T23:34:38.564004+00:00 app[web.1]:     self._setup(name)
+2013-04-30T23:34:38.564322+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+2013-04-30T23:34:38.564322+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2013-04-30T23:34:38.564322+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+2013-04-30T23:34:38.564322+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2013-04-30T23:34:38.564322+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+2013-04-30T23:34:38.564322+00:00 app[web.1]:     __import__(name)
+2013-04-30T23:34:38.564322+00:00 app[web.1]:   File "/app/ckrobotics_django/settings.py", line 176, in <module>
+2013-04-30T23:34:38.564322+00:00 app[web.1]:     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
+2013-04-30T23:34:38.564322+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/UserDict.py", line 23, in __getitem__
+2013-04-30T23:34:38.564322+00:00 app[web.1]:     raise KeyError(key)
+2013-04-30T23:34:38.564550+00:00 app[web.1]: KeyError: 'AWS_STORAGE_BUCKET_NAME'
+2013-04-30T23:34:38.564863+00:00 heroku[router]: at=info method=GET path=/ host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=3ms service=3ms status=500 bytes=135
+2013-04-30T23:34:38.759073+00:00 app[web.1]: 2013-04-30 23:34:38 [7] [ERROR] Error handling request
+2013-04-30T23:34:38.759073+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 126, in handle_request
+2013-04-30T23:34:38.759073+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+2013-04-30T23:34:38.759073+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+2013-04-30T23:34:38.762348+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=ckrobotics-django.herokuapp.com fwd="67.194.98.113" dyno=web.1 connect=0ms service=2ms status=500 bytes=135
+2013-04-30T23:34:38.759073+00:00 app[web.1]:     for middleware_path in settings.MIDDLEWARE_CLASSES:
+2013-04-30T23:34:38.759073+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+2013-04-30T23:34:38.759073+00:00 app[web.1]: Traceback (most recent call last):
+2013-04-30T23:34:38.759073+00:00 app[web.1]:     self.load_middleware()
+2013-04-30T23:34:38.759073+00:00 app[web.1]:     self._setup(name)
+2013-04-30T23:34:38.759330+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2013-04-30T23:34:38.759330+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 132, in __init__
+2013-04-30T23:34:38.759330+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2013-04-30T23:34:38.759330+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+2013-04-30T23:34:38.759330+00:00 app[web.1]:   File "/app/ckrobotics_django/settings.py", line 176, in <module>
+2013-04-30T23:34:38.759330+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+2013-04-30T23:34:38.759073+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2013-04-30T23:34:38.759330+00:00 app[web.1]:     __import__(name)
+2013-04-30T23:34:38.759330+00:00 app[web.1]:     AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
+2013-04-30T23:34:38.759558+00:00 app[web.1]: KeyError: 'AWS_STORAGE_BUCKET_NAME'
+2013-04-30T23:34:38.759330+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/UserDict.py", line 23, in __getitem__
+2013-04-30T23:34:38.759330+00:00 app[web.1]:     raise KeyError(key)
+2013-04-30T23:34:16.488922+00:00 heroku[web.1]: State changed from starting to up
+2013-04-30T23:34:17.464490+00:00 heroku[web.1]: State changed from up to starting
