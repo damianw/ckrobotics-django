@@ -1,0 +1,1 @@
+web: gunicorn ckrobotics_django.wsgi
