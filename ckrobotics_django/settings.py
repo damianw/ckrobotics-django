@@ -1,4 +1,5 @@
 # Django settings for ckrobotics_django project.
+import os
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -12,7 +13,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'robodb',                      # Or path to database file if using sqlite3.
+        'NAME': 'dev.db',                      # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -116,9 +117,10 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+    'polls',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -152,7 +154,19 @@ LOGGING = {
 
 # Parse database configuration from $DATABASE_URL
 import dj_database_url
-DATABASES['default'] =  dj_database_url.config()
+DATABASES['default'] =  dj_database_url.config(default="sqlite3:////%s/dev.db")
+
+if bool(os.environ.get('LOCAL_DEV', False)):
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+            'NAME': 'dev.db',                      # Or path to database file if using sqlite3.
+            'USER': '',                      # Not used with sqlite3.
+            'PASSWORD': '',                  # Not used with sqlite3.
+            'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
+            'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
+        }
+    }
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
