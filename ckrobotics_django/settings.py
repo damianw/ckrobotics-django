@@ -1,7 +1,7 @@
 # Django settings for ckrobotics_django project.
 import os
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -159,6 +159,7 @@ import dj_database_url
 DATABASES['default'] =  dj_database_url.config(default="sqlite3:////%s/dev.db")
 
 if bool(os.environ.get('LOCAL_DEV', False)):
+    DEBUG = True
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
