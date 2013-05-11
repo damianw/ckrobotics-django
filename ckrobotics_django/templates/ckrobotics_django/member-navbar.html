@@ -7,7 +7,7 @@
           </li>
           <li><a href="#">My Teams</a>
             <ul>
-              {% for group in vex_teams %}
+              {% for team in request.user.member.teams.all %}
                 <li {% if page == team.name %} class="active" {% endif %} ><a href="#">{{ team.name }}</a></li>
               {% endfor %}
             </ul>
