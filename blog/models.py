@@ -1,17 +1,10 @@
 from django.db import models
-
-LEAGUETYPE = (
-    ('v', 'VEX'),
-    ('f', 'FTC'),
-    ('l', 'FLL'),
-    ('i', 'VEXIQ'),
-)
-
-LEAGUEMATCH = dict((x, y) for x, y in LEAGUETYPE)
+from django.contrib.auth.models import User, Group
+from teams.models import Team, LEAGUETYPE, LEAGUEMATCH
 
 class Description(models.Model):
   name = models.CharField(max_length=20)
-  text = models.CharField(max_length=65535)
+  text = models.TextField()
 
 class CompetitionGame(models.Model):
 	name = models.CharField(max_length=20)
@@ -19,9 +12,13 @@ class CompetitionGame(models.Model):
 	season_end = models.DateField()
 	league = models.CharField(max_length=1, choices=LEAGUETYPE)
 	current = models.BooleanField()
-	description = models.CharField(max_length=65535)
-	teams = models.CharField(max_length=65535)
-	rules = models.CharField(max_length=65535)
+	description = models.TextField()
+	teams = models.TextField()
+	rules = models.TextField()
 
 class BlogPost(models.Model):
-	title = models.CharField(max_length=20)
+	title = models.CharField(max_length=50)
+	content = models.TextField()
+	author = models.ForeignKey(User, blank=True, null=True)
+	teamauthor = models.ForeignKey(Team, blank=True, null=True)
+	pub_date = models.DateTimeField()
