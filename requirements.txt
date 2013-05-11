@@ -8,3 +8,4 @@ gunicorn==0.17.4
 psycopg2==2.5
 pyjade==2.0.2
 wsgiref==0.1.2
+South==0.7.6
