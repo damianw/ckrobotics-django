@@ -1,8 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User, Group
 
-Group.add_to_class('league', models.BooleanField())
-
 class Robot(models.Model):
 	name = models.CharField(max_length=50)
 	description = models.TextField()
@@ -26,7 +24,6 @@ class Team(models.Model):
 	primarygroup = models.ForeignKey(Group, related_name='primaryteams')
 	groups = models.ManyToManyField(Group, related_name='teams')
 	robots = models.ManyToManyField(Robot, blank=True)
-
 # Group.add_to_class('team', models.OneToOneField(Team, 
 # 	related_name='group', blank=True, null=True))
 # Group.team.blank=False
