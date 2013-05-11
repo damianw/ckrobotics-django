@@ -17,3 +17,8 @@ class Member(models.Model):
 	join_date = models.DateField()
 	current = models.BooleanField()
 	grad_year = models.IntegerField()
+
+class Robot(models.Model):
+	name = models.CharField(max_length=50)
+	description = models.CharField(max_length=1000)
+	teams = models.ManyToManyField(Team)
