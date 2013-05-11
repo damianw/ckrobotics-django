@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User, Group
-from teams.models import Team, LEAGUETYPE, LEAGUEMATCH
+from teams.models import Team
 
 class Description(models.Model):
   name = models.CharField(max_length=20)
@@ -10,7 +10,7 @@ class CompetitionGame(models.Model):
 	name = models.CharField(max_length=20)
 	season_start = models.DateField()
 	season_end = models.DateField()
-	league = models.CharField(max_length=1, choices=LEAGUETYPE)
+	league = models.ForeignKey(Group)
 	current = models.BooleanField()
 	description = models.TextField()
 	teams = models.TextField()

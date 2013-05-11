@@ -129,7 +129,7 @@ INSTALLED_APPS = (
     'polls',
     'teams',
     'blog',
-    'south',
+    #'south',
 )
 
 # A sample logging configuration. The only tangible logging

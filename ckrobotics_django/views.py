@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.http import Http404
 from django.contrib.auth import authenticate, login
+from django.contrib.auth.models import User, Group
 from django.shortcuts import render, get_object_or_404
 from teams.models import Team
 from blog.models import Description
@@ -10,10 +11,10 @@ partners = ["Youthville Detroit", "Someone Else",]
 
 def get_data():
 	data = {'teams': Team.objects.all(),
-						'vex_teams': Team.objects.filter(league='v'),
-						'ftc_teams': Team.objects.filter(league='f'),
-						'fll_teams': Team.objects.filter(league='l'),
-						'vexiq_teams': Team.objects.filter(league='i'),
+						'vex_teams': Team.objects.filter(primarygroup=Group.objects.get(name='VEX')),
+						'ftc_teams': Team.objects.filter(primarygroup=Group.objects.get(name='FTC')),
+						'fll_teams': Team.objects.filter(primarygroup=Group.objects.get(name='FLL')),
+						'vexiq_teams': Team.objects.filter(primarygroup=Group.objects.get(name='VEXIQ')),
 						'partners': partners,
 					}
 	return data
