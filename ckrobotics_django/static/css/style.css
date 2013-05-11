@@ -1,0 +1,95 @@
+
+html {
+  min-height:100%;
+  min-width:980px;
+}
+
+.dropdown-menu .form-signin {
+  padding: 15px;
+  margin: 0;
+}
+
+.dropdown-menu.split {
+  padding: 20px;
+}
+
+.checkbox.rememberme {
+  padding: 10px 18px 0px 0px;
+}
+
+.pull-center {
+	text-align: center;
+}
+
+.preheader {
+  height: 150px;
+  margin-bottom: 10px;
+}
+.preheader .container {
+  height: inherit;
+  width: 980px;
+  background-image: url('../img/logo_blue.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.container {
+	width: 940px;
+}
+
+.container.main {
+  background: #FFF;
+  border: 20px solid white;
+}
+
+.preheader img {
+  margin-left: 250px;
+  margin-top: 25px;
+}
+
+.normalpage.preheader .container {
+  background-image: url('#');
+}
+
+.normalpage.preheader {
+  height: 60px;
+}
+
+.navbar .navbar-inner {
+  min-width:900px;
+  font-weight: bold;
+}
+.navbar .nav > li > a {
+  padding: 9px 13px 11px;
+}
+.normalpage .brand img {
+  height: 40px;
+  margin-top: -2px;
+  float: left;
+}
+
+.normalpage .navbar-inner {
+  width: 813px;
+  min-width:813px;
+}
+.normalpage .navbar .nav > li > a {
+  padding: 9px 9px 11px 9px;
+}
+
+.normalpage .brand img {
+  height: 40px;
+  margin-top: -2px;
+  float: left;
+}
+.normalpage .navbar {
+  float:left;
+  width:813px;
+  margin-left: 20px;
+}
+.normalpage .navbar-inner {
+  width: 813px;
+  min-width:813px;
+}
+.normalpage .navbar .nav > li > a {
+  padding: 9px 9px 11px 9px;
+}
