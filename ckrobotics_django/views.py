@@ -7,9 +7,19 @@ from blog.models import Description
 partners = ["Youthville Detroit", "Someone Else",]
 
 def index(request):
-	homepage = {'title': "CK Robotics",
-		'teams': Team.objects.all(),
-		'hero_unit_header': Description.objects.get(name__exact="hero_unit_header").text,
-		'hero_unit_text': Description.objects.get(name__exact="hero_unit_text").text,
-		'partners': partners, }
-	return render(request, 'ckrobotics_django/index.html', {'homepage': homepage})
+	data = {'teams': Team.objects.all(),
+					'partners': partners,
+					'title': "CK Robotics",
+					'page': 'index',
+					'hero_unit_header': Description.objects.get(name__exact="hero_unit_header").text,
+					'hero_unit_text': Description.objects.get(name__exact="hero_unit_text").text,
+					}
+	return render(request, 'ckrobotics_django/index.html', data)
+
+def vex(request):
+	data = {'teams': Team.objects.all(),
+					'partners': partners,
+					'title': 'About VEX',
+					'page': 'vex',
+					}
+	return render(request, 'ckrobotics_django/vex.html', data);

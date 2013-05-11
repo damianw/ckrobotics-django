@@ -19,6 +19,7 @@ urlpatterns = patterns('',
     url(r'^polls/', include('polls.urls', namespace="polls")),
     url(r'^teams/', include('teams.urls', namespace="teams")),
     url(r'^$', views.index, name="index"),
+    url(r'^vex/', views.vex, name="vex"),
     #(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
 )
 

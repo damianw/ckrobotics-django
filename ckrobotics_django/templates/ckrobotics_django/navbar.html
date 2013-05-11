@@ -1,0 +1,61 @@
+<div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+          <div class="container"><a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li {% if page == 'index' %} class="active" {% endif %}><a href="/">Home</a>
+                </li>
+                <li {% if page == 'news' %} class="active" {% endif %}><a href="#news">News</a>
+                </li>
+                <li {% if page == 'about' %} class="active" {% endif %}><a href="#about">About</a>
+                </li>
+                <li {% if page == 'vex' %} class="active" {% endif %}><a href="/vex">VEX</a>
+                  <ul>
+                    {% for team in teams %}
+                      <li {% if page == team.name %} class="active" {% endif %} ><a href="#">{{ team.name }}</a></li>
+                    {% endfor %}
+                    <li>
+                      <a href="#">Partners</a>
+                      <ul>
+                        {% for team in partners %}
+                          <li><a href="#">{{ team }}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#VEXIQ">VEXIQ</a>
+                </li>
+                <li><a href="#FTC">FTC</a>
+                </li>
+                <li><a href="#FLL">FLL</a>
+                </li>
+                </ul>
+              <ul class="nav pull-right">
+                <li><a href="#">Sign In</a>
+                  <ul class="login-list">
+                    <li>
+                      <div class="login-form">
+                        <div class="control-group">
+                          <input class="input login-field" type="text" placeholder="Email address"/>
+                          <label class="login-field-icon fui-man-16" for="login-name"></label>
+                        </div>
+                        <div class="control-group">
+                          <input class="input login-field" type="password" placeholder="Password"/>
+                          <label class="login-field-icon fui-lock-16" for="login-pass"></label>
+                        </div>
+                        <div class="pull-right">
+                          <label class="checkbox rememberme">
+                            <input class="palette" type="checkbox" value="remember-me">Remember</label>
+                        </div>
+                        <button class="btn btn-large btn-primary" type="submit">Sign In
+                        </button>
+                      </form>
+                    </ul>
+                  </li>
+                </li>
+              </ul>
+            </div>
+            </div>
+        </div>
+      </div>
