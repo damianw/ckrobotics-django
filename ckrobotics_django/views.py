@@ -4,6 +4,7 @@ from django.contrib.auth import authenticate, login
 from django.shortcuts import render, get_object_or_404
 from teams.models import Team
 from blog.models import Description
+from django.contrib.auth.decorators import login_required
 
 partners = ["Youthville Detroit", "Someone Else",]
 
@@ -14,13 +15,13 @@ def index(request):
 		user = authenticate(username=username, password=password)
 		if user is not None:
 				if user.is_active:
-					#login(request, user)
+					login(request, user)
 					return render(request, 'ckrobotics_django/test.html', {'loggedin': True})
 				else:
 					return render(request, 'ckrobotics_django/test.html', {'loggedin': False})
 		else:
 			return render(request, 'ckrobotics_django/test.html', {'loggedin': False})
-	elif request.method == 'GET':
+	else:
 		data = {'teams': Team.objects.all(),
 						'partners': partners,
 						'title': "CK Robotics",
@@ -37,3 +38,8 @@ def vex(request):
 					'page': 'vex',
 					}
 	return render(request, 'ckrobotics_django/vex.html', data);
+
+@login_required(login_url='/')
+def memberhome(request):
+	data = {'teams': request.user.member.teams.all()}
+	return render(request, 'ckrobotics_django/memberhome.html', data)
