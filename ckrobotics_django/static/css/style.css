@@ -78,6 +78,9 @@ html {
   margin-left: 0;
 }
 
+.vex-sidenav.affix {
+  top: 40px;
+}
 
 /*.container.main {
   background: #FFF;

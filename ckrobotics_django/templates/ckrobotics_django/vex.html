@@ -2,23 +2,23 @@
 {% load staticfiles %}
 <html lang="en">
   {% include "ckrobotics_django/head.html" %}
-  <body>
+  <body data-spy="scroll" data-target=".vex-sidebar">
     {% include "ckrobotics_django/preheader.html" %}
     <div class="container main">
       {% include "ckrobotics_django/navbar.html" %}
       <div class="row">
-	      <div class="span3 bs-docs-sidebar">
-	        <ul class="nav nav-list bs-docs-sidenav">
-	          <li><a href="#download-bootstrap"><i class="icon-chevron-right"></i>Toss Up</a></li>
-	          <li><a href="#file-structure"><i class="icon-chevron-right"></i>Sack Attack</a></li>
-	          <li><a href="#contents"><i class="icon-chevron-right"></i>Gateway</a></li>
-	          <li><a href="#html-template"><i class="icon-chevron-right"></i>Round Up</a></li>
-	          <li><a href="#examples"><i class="icon-chevron-right"></i>Clean Sweep</a></li>
-	          <li><a href="#what-next"><i class="icon-chevron-right"></i>Elevation</a></li>
+	      <div class="span3 vex-sidebar">
+	        <ul class="nav nav-list vex-sidenav" data-spy="affix" data-offset-top="220">
+	          <li><a href="#tossup"><i class="icon-chevron-right"></i>Toss Up</a></li>
+	          <li><a href="#sackattack"><i class="icon-chevron-right"></i>Sack Attack</a></li>
+	          <li><a href="#gateway"><i class="icon-chevron-right"></i>Gateway</a></li>
+	          <li><a href="#roundup"><i class="icon-chevron-right"></i>Round Up</a></li>
+	          <li><a href="#cleansweep"><i class="icon-chevron-right"></i>Clean Sweep</a></li>
+	          <li><a href="#elevation"><i class="icon-chevron-right"></i>Elevation</a></li>
 	        </ul>
 	      </div>
 	      <div class="span9">
-	      	<section id="roundup">
+	      	<section id="tossup">
 	      		<div class="page-header">
 	            <h1>Toss Up</h1>
 	          </div>
@@ -37,8 +37,109 @@
 	            </div>
 	          </div>
 	        </section>
+	        <section id="sackattack">
+	      		<div class="page-header">
+	            <h1>Sack Attack</h1>
+	          </div>
+	          <iframe class="pull-center youtube" width="420" height="315" src="http://www.youtube.com/embed/N-ehrKSYfjk" frameborder="0" allowfullscreen></iframe>
+			      <p class="lead">
+			      	The object of the game is to attain a higher score than the opposing Alliance by Scoring Sacks and Bonus Sacks in your colored Floor Goals, Troughs and High Goal, and by having the most Robots of your color Parked at the end of the Match.
+			      </p>
+	          <div class="row-fluid">
+	            <div class="span6">
+	              <h2>Teams</h2>
+	              <p>VEX Sack Attack is played on a 12’x12’ square field configured as seen above. Two alliances – one “red” and one “blue” – composed of two teams each, compete in matches consisting of a fifteen second autonomous period followed by one minute and forty-five seconds of driver- controlled play.
+	              </p>
+	            </div>
+	            <div class="span6">
+	              <h2>Rules</h2>
+	              <p>There are a total of ninety-eight (98) Sacks and four (4) Bonus Sacks available as Scoring Objects in the game. Most Scoring Objects begin in designated locations on the field, while some are available to be loaded prior or during the Match. Each Robot (smaller than 18”x18”x18” to start) begins a match on one of their Alliance Starting Tiles. There are ten (10) scoring areas, five (5) of each color, of varying heights which teams can Score Sacks or Bonus Sacks in. Alliances earn a bonus for having the most Robots of their own color touching their Alliance Starting Tiles at the end of the Match. A bonus is awarded to the Alliance that has the most total points at the end of the Autonomous Period.</p>
+	            </div>
+	          </div>
+	        </section>
+	        <section id="gateway">
+	      		<div class="page-header">
+	            <h1>Gateway</h1>
+	          </div>
+	          <iframe class="pull-center youtube" width="420" height="315" src="http://www.youtube.com/embed/N-ehrKSYfjk" frameborder="0" allowfullscreen></iframe>
+			      <p class="lead">
+			      	The object of the game is to attain a higher score than the opposing Alliance by Scoring Sacks and Bonus Sacks in your colored Floor Goals, Troughs and High Goal, and by having the most Robots of your color Parked at the end of the Match.
+			      </p>
+	          <div class="row-fluid">
+	            <div class="span6">
+	              <h2>Teams</h2>
+	              <p>VEX Sack Attack is played on a 12’x12’ square field configured as seen above. Two alliances – one “red” and one “blue” – composed of two teams each, compete in matches consisting of a fifteen second autonomous period followed by one minute and forty-five seconds of driver- controlled play.
+	              </p>
+	            </div>
+	            <div class="span6">
+	              <h2>Rules</h2>
+	              <p>There are a total of ninety-eight (98) Sacks and four (4) Bonus Sacks available as Scoring Objects in the game. Most Scoring Objects begin in designated locations on the field, while some are available to be loaded prior or during the Match. Each Robot (smaller than 18”x18”x18” to start) begins a match on one of their Alliance Starting Tiles. There are ten (10) scoring areas, five (5) of each color, of varying heights which teams can Score Sacks or Bonus Sacks in. Alliances earn a bonus for having the most Robots of their own color touching their Alliance Starting Tiles at the end of the Match. A bonus is awarded to the Alliance that has the most total points at the end of the Autonomous Period.</p>
+	            </div>
+	          </div>
+	        </section>
+	        <section id="roundup">
+	      		<div class="page-header">
+	            <h1>Round Up</h1>
+	          </div>
+	          <iframe class="pull-center youtube" width="420" height="315" src="http://www.youtube.com/embed/N-ehrKSYfjk" frameborder="0" allowfullscreen></iframe>
+			      <p class="lead">
+			      	The object of the game is to attain a higher score than the opposing Alliance by Scoring Sacks and Bonus Sacks in your colored Floor Goals, Troughs and High Goal, and by having the most Robots of your color Parked at the end of the Match.
+			      </p>
+	          <div class="row-fluid">
+	            <div class="span6">
+	              <h2>Teams</h2>
+	              <p>VEX Sack Attack is played on a 12’x12’ square field configured as seen above. Two alliances – one “red” and one “blue” – composed of two teams each, compete in matches consisting of a fifteen second autonomous period followed by one minute and forty-five seconds of driver- controlled play.
+	              </p>
+	            </div>
+	            <div class="span6">
+	              <h2>Rules</h2>
+	              <p>There are a total of ninety-eight (98) Sacks and four (4) Bonus Sacks available as Scoring Objects in the game. Most Scoring Objects begin in designated locations on the field, while some are available to be loaded prior or during the Match. Each Robot (smaller than 18”x18”x18” to start) begins a match on one of their Alliance Starting Tiles. There are ten (10) scoring areas, five (5) of each color, of varying heights which teams can Score Sacks or Bonus Sacks in. Alliances earn a bonus for having the most Robots of their own color touching their Alliance Starting Tiles at the end of the Match. A bonus is awarded to the Alliance that has the most total points at the end of the Autonomous Period.</p>
+	            </div>
+	          </div>
+	        </section>
+	        <section id="cleansweep">
+	      		<div class="page-header">
+	            <h1>Clean Sweep</h1>
+	          </div>
+	          <iframe class="pull-center youtube" width="420" height="315" src="http://www.youtube.com/embed/N-ehrKSYfjk" frameborder="0" allowfullscreen></iframe>
+			      <p class="lead">
+			      	The object of the game is to attain a higher score than the opposing Alliance by Scoring Sacks and Bonus Sacks in your colored Floor Goals, Troughs and High Goal, and by having the most Robots of your color Parked at the end of the Match.
+			      </p>
+	          <div class="row-fluid">
+	            <div class="span6">
+	              <h2>Teams</h2>
+	              <p>VEX Sack Attack is played on a 12’x12’ square field configured as seen above. Two alliances – one “red” and one “blue” – composed of two teams each, compete in matches consisting of a fifteen second autonomous period followed by one minute and forty-five seconds of driver- controlled play.
+	              </p>
+	            </div>
+	            <div class="span6">
+	              <h2>Rules</h2>
+	              <p>There are a total of ninety-eight (98) Sacks and four (4) Bonus Sacks available as Scoring Objects in the game. Most Scoring Objects begin in designated locations on the field, while some are available to be loaded prior or during the Match. Each Robot (smaller than 18”x18”x18” to start) begins a match on one of their Alliance Starting Tiles. There are ten (10) scoring areas, five (5) of each color, of varying heights which teams can Score Sacks or Bonus Sacks in. Alliances earn a bonus for having the most Robots of their own color touching their Alliance Starting Tiles at the end of the Match. A bonus is awarded to the Alliance that has the most total points at the end of the Autonomous Period.</p>
+	            </div>
+	          </div>
+	        </section>
+	        <section id="elevation">
+	      		<div class="page-header">
+	            <h1>Elevation</h1>
+	          </div>
+	          <iframe class="pull-center youtube" width="420" height="315" src="http://www.youtube.com/embed/N-ehrKSYfjk" frameborder="0" allowfullscreen></iframe>
+			      <p class="lead">
+			      	The object of the game is to attain a higher score than the opposing Alliance by Scoring Sacks and Bonus Sacks in your colored Floor Goals, Troughs and High Goal, and by having the most Robots of your color Parked at the end of the Match.
+			      </p>
+	          <div class="row-fluid">
+	            <div class="span6">
+	              <h2>Teams</h2>
+	              <p>VEX Sack Attack is played on a 12’x12’ square field configured as seen above. Two alliances – one “red” and one “blue” – composed of two teams each, compete in matches consisting of a fifteen second autonomous period followed by one minute and forty-five seconds of driver- controlled play.
+	              </p>
+	            </div>
+	            <div class="span6">
+	              <h2>Rules</h2>
+	              <p>There are a total of ninety-eight (98) Sacks and four (4) Bonus Sacks available as Scoring Objects in the game. Most Scoring Objects begin in designated locations on the field, while some are available to be loaded prior or during the Match. Each Robot (smaller than 18”x18”x18” to start) begins a match on one of their Alliance Starting Tiles. There are ten (10) scoring areas, five (5) of each color, of varying heights which teams can Score Sacks or Bonus Sacks in. Alliances earn a bonus for having the most Robots of their own color touching their Alliance Starting Tiles at the end of the Match. A bonus is awarded to the Alliance that has the most total points at the end of the Autonomous Period.</p>
+	            </div>
+	          </div>
+	        </section>
 		    </div>
 	    </div>
 	  </div>
   </body>
+  {% include "ckrobotics_django/scripts.html" %}
 </html>
