@@ -25,8 +25,8 @@ def index(request):
 						'partners': partners,
 						'title': "CK Robotics",
 						'page': 'index',
-						'hero_unit_header': Description.objects.get(name__exact="hero_unit_header").text,
-						'hero_unit_text': Description.objects.get(name__exact="hero_unit_text").text,
+						# 'hero_unit_header': Description.objects.get(name__exact="hero_unit_header").text,
+						# 'hero_unit_text': Description.objects.get(name__exact="hero_unit_text").text,
 						}
 		return render(request, 'ckrobotics_django/index.html', data)
 

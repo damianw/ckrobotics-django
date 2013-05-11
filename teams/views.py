@@ -9,6 +9,6 @@ def index(request):
     context = {'team_list': Team.objects.all()}
     return render(request, 'teams/index.html', context)
 
-def detail(request, poll_id):
+def detail(request, team_id):
     team = get_object_or_404(Team, pk=team_id)
     return render(request, 'teams/detail.html', {'team': team})

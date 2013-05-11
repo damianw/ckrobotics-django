@@ -6,5 +6,5 @@ urlpatterns = patterns('',
   # ex: /teams/
   url(r'^$', views.index, name='index'),
   # ex: /teams/5/
-  url(r'^(?P<poll_id>\d+)/$', views.detail, name='detail'),
+  url(r'^(?P<team_id>\d+)/$', views.detail, name='detail'),
 )
