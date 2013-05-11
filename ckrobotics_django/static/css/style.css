@@ -4,18 +4,41 @@ html {
   min-width:980px;
 }
 
-.dropdown-menu .form-signin {
-  padding: 15px;
-  margin: 0;
+.navbar .nav .login-list{
+  left: -150px;
 }
 
-.dropdown-menu.split {
-  padding: 20px;
+.navbar .nav .login-list:before{
+  left: auto;
+  right: 15px;
 }
 
-.checkbox.rememberme {
+.control-group {
+  margin-right: 15px;
+}
+
+.control-group .input.login-field{
+  width: 100%;
+  margin-right: 20px;
+}
+
+.login-form {
+  padding: 10px;
+  /*background-color: #34495e;*/
+  /*margin: 0;*/
+}
+
+
+.login-form .pull-right {
+  padding-top: 15px;
+}
+
+.login-form:before {
+  content: none;
+}
+/*.checkbox.rememberme {
   padding: 10px 18px 0px 0px;
-}
+}*/
 
 .pull-center {
 	text-align: center;
@@ -37,7 +60,7 @@ html {
 	width: 940px;
 }
 
-.container.main {
+/*.container.main {
   background: #FFF;
   border: 20px solid white;
 }
@@ -53,8 +76,8 @@ html {
 
 .normalpage.preheader {
   height: 60px;
-}
-
+}*/
+/*
 .navbar .navbar-inner {
   min-width:900px;
   font-weight: bold;
@@ -92,4 +115,4 @@ html {
 }
 .normalpage .navbar .nav > li > a {
   padding: 9px 9px 11px 9px;
-}
+}*/
