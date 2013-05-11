@@ -11,24 +11,31 @@
           </li>
           <li {% if page == 'vex' %} class="active" {% endif %}><a href="/vex">VEX</a>
             <ul>
-              {% for team in teams %}
+              {% for team in vex_teams %}
                 <li {% if page == team.name %} class="active" {% endif %} ><a href="#">{{ team.name }}</a></li>
               {% endfor %}
-              <li>
-                <a href="#">Partners</a>
-                <ul>
-                  {% for team in partners %}
-                    <li><a href="#">{{ team }}</a></li>
-                  {% endfor %}
-                </ul>
-              </li>
             </ul>
           </li>
-          <li><a href="#VEXIQ">VEXIQ</a>
+          <li {% if page == 'vexiq' %} class="active" {% endif %}><a href="/vexiq">VEXIQ</a>
+            <ul>
+              {% for team in vexiq_teams %}
+                <li {% if page == team.name %} class="active" {% endif %} ><a href="#">{{ team.name }}</a></li>
+              {% endfor %}
+            </ul>
           </li>
-          <li><a href="#FTC">FTC</a>
+          <li {% if page == 'ftc' %} class="active" {% endif %}><a href="/ftc">FTC</a>
+            <ul>
+              {% for team in ftc_teams %}
+                <li {% if page == team.name %} class="active" {% endif %} ><a href="#">{{ team.name }}</a></li>
+              {% endfor %}
+            </ul>
           </li>
-          <li><a href="#FLL">FLL</a>
+          <li {% if page == 'fll' %} class="active" {% endif %}><a href="/fll">FLL</a>
+            <ul>
+              {% for team in fll_teams %}
+                <li {% if page == team.name %} class="active" {% endif %} ><a href="#">{{ team.name }}</a></li>
+              {% endfor %}
+            </ul>
           </li>
           </ul>
         <ul class="nav pull-right">

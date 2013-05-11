@@ -7,7 +7,7 @@
           </li>
           <li><a href="#">My Teams</a>
             <ul>
-              {% for team in teams %}
+              {% for team in request.user.groups.all %}
                 <li {% if page == team.name %} class="active" {% endif %} ><a href="#">{{ team.name }}</a></li>
               {% endfor %}
             </ul>

@@ -4,7 +4,7 @@ from django.contrib.auth.admin import UserAdmin, GroupAdmin
 from django.contrib.auth.models import User
 
 class TeamAdmin(GroupAdmin):
-  pass
+  exclude = ('name',)
 
 class MemberInline(admin.StackedInline):
   model = Member

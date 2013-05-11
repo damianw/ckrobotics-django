@@ -7,6 +7,8 @@ LEAGUETYPE = (
     ('i', 'VEXIQ'),
 )
 
+LEAGUEMATCH = dict((x, y) for x, y in LEAGUETYPE)
+
 class Description(models.Model):
   name = models.CharField(max_length=20)
   text = models.CharField(max_length=65535)

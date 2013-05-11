@@ -8,6 +8,16 @@ from django.contrib.auth.decorators import login_required
 
 partners = ["Youthville Detroit", "Someone Else",]
 
+def get_data():
+	data = {'teams': Team.objects.all(),
+						'vex_teams': Team.objects.filter(league='v'),
+						'ftc_teams': Team.objects.filter(league='f'),
+						'fll_teams': Team.objects.filter(league='l'),
+						'vexiq_teams': Team.objects.filter(league='i'),
+						'partners': partners,
+					}
+	return data
+
 def index(request):
 	if request.method == 'POST':
 		username = request.POST['username']
@@ -22,24 +32,23 @@ def index(request):
 		else:
 			return render(request, 'ckrobotics_django/test.html', {'loggedin': False})
 	else:
-		data = {'teams': Team.objects.all(),
-						'partners': partners,
+		data = get_data()
+		data.update({
 						'title': "CK Robotics",
 						'page': 'index',
-						# 'hero_unit_header': Description.objects.get(name__exact="hero_unit_header").text,
-						# 'hero_unit_text': Description.objects.get(name__exact="hero_unit_text").text,
-						}
+						})
 		return render(request, 'ckrobotics_django/index.html', data)
 
 def vex(request):
-	data = {'teams': Team.objects.all(),
-					'partners': partners,
-					'title': 'About VEX',
+	data = get_data()
+	data.update({'title': 'About VEX',
 					'page': 'vex',
-					}
+					})
 	return render(request, 'ckrobotics_django/vex.html', data);
 
 @login_required(login_url='/')
 def memberhome(request):
-	data = {'teams': request.user.member.teams.all()}
+	data = get_data()
+	data.update({ 'page': 'memberhome',
+		})
 	return render(request, 'ckrobotics_django/memberhome.html', data)
