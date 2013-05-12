@@ -21,6 +21,7 @@ urlpatterns = patterns('',
     url(r'^$', views.index, name="index"),
     url(r'^memberhome/', views.memberhome, name="memberhome"),
     url(r'^vex/', views.vex, name="vex"),
+    url(r'^logout/', views.logout_view, name="logout"),
     #(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
 )
 

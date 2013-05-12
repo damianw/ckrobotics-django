@@ -39,6 +39,9 @@
           </li>
           </ul>
         <ul class="nav pull-right">
+          {% if request.user.is_authenticated %}
+            <li><a href="/memberhome">Member Home</a>
+          {% else %}
           <li><a href="#">Sign In</a>
             <ul class="login-list">
               <li>
@@ -62,6 +65,7 @@
                 </form>
               </ul>
             </li>
+          {% endif %}
           </li>
         </ul>
       </div>

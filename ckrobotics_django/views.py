@@ -6,6 +6,8 @@ from django.shortcuts import render, get_object_or_404
 from teams.models import Team
 from blog.models import Description
 from django.contrib.auth.decorators import login_required
+from django.shortcuts import redirect
+from django.contrib.auth import logout
 
 partners = ["Youthville Detroit", "Someone Else",]
 
@@ -46,6 +48,10 @@ def vex(request):
 					'page': 'vex',
 					})
 	return render(request, 'ckrobotics_django/vex.html', data);
+
+def logout_view(request):
+	logout(request)
+	return redirect('/')
 
 @login_required(login_url='/')
 def memberhome(request):
